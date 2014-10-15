@@ -1,0 +1,138 @@
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+}
+
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+@media(min-width:768px) {
+    body {
+        padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background: black;
+}
+
+.content {
+    border: 5px;
+}
+#content {
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px;
+    background: gray;
+    padding-left: 10px;
+    padding-top: 5px;
+    width: auto;
+}
+#flash{   
+    border: 4px;
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 1300px;
+    
+}
+#sidebar {
+    border: 4px;
+    background: #999;
+    
+}
+#title {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 1px;
+    text-size: auto;
+}
+
+.title {
+    font-size: 80px;
+    color: yellow;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+.intro_link {
+    font-size: 80px;
+    color: yellow; 
+}
+
+.directions {
+    color: #428BCA;
+    text-align:center;
+    font-size: 35px;
+      font-style: italic;
+    margin-top: 30px;
+    margin-bottom: -10px;
+}
+.subtitle {
+    font-size: 40px;
+    color: white;
+    margin-left: 15px;
+}
+.description {
+    font-size: 20px;
+    color: white;
+    margin-left: 30px;
+}
+.caption {
+    font-size: 17px;
+    color: white;
+}
+.entry_title{
+    color: white;
+    font-size: 35px;
+}
+.entry_subtitle{
+    color: white;
+    font-size: 25px;
+}
+.entry_text{
+    color: white;
+    font-size: 20px;
+}
+b {
+	font-size: 25px;
+        color: yellow;
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+
+a:link {
+    color: yellow;
+}
+
+/* visited link */
+a:visited {
+    color: yellow;
+}
+
+
+/* selected link */
+a:active {
+    color: red;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF00FF;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: red;
+}
+ 
